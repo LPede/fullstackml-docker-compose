@@ -15,7 +15,7 @@ services:
   minio:
     restart: always
     image: minio/minio
-    container_name: datalake
+    container_name: datalake_minio
     ports:
       - "9000:9000"
       - "9001:9001"
@@ -32,7 +32,7 @@ services:
   mlflow-db:
     restart: always
     image: mysql/mysql-server@sha256:fcbe88694872e88ae406bc69540211505eae922a182690d85be6af1a48e5ca0a
-    container_name: sviluppo_mlflow_db
+    container_name: mlflow_db
     ports:
       - "3306:3306"
     networks:
