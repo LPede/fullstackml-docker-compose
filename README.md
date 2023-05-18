@@ -13,20 +13,22 @@ An MLflow service, based on the custom "mlflow_server" image built in the "mlflo
 The Docker Compose configuration provides an integrated environment for developing machine learning models using JupyterLab and MLflow, with MinIO as a data lake and MySQL as the backend for data storage. You can use JupyterLab to create and share notebooks, run MLflow experiments, and store the results and associated artifacts in MinIO.
 
 # How to run
-Clone (download) this repository
 
-git clone https://github.com/LPede/fullstackml-docker-compose.git
-cd into the fullstackml-docker-compose directory
+**Clone (download) this repository**
 
-Build and run the containers with docker-compose
 
-docker-compose up -d --build
-Access Jupyterlab UI with http://localhost:8888
-Access MLflow UI with http://localhost:5050
-Access MinIO UI with http://localhost:9000
+**Build and run the containers with docker-compose**
 
-Notes:
 
-Docker Compose allows you to access environment variables from the compose file docker-compose.yml. All variables (usernames, passwords, db names, access keys) used in the compose file are declared in the hidden file .env.
+**Access JupyterLab UI with [http://localhost:8888](http://localhost:8888)**
 
-Often the TCP/5000 port used by the MLflow UI is also (ab)used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. Anyway, the port mapping can be easily changed by editing the compose file
+**Access MLflow UI with [http://localhost:5050](http://localhost:5050)**
+
+**Access MinIO UI with [http://localhost:9000](http://localhost:9000)**
+
+## Notes
+
+- Docker Compose allows you to access environment variables from the compose file `docker-compose.yml`. All variables (usernames, passwords, db names, access keys) used in the compose file are declared in the hidden file `.env`.
+
+- Often the TCP/5000 port used by the MLflow UI is also (ab)used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. Anyway, the port mapping can be easily changed by editing the compose file.
+
