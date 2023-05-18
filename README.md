@@ -14,6 +14,8 @@ The Docker Compose configuration provides an integrated environment for developi
 
 # How to run
 If you already have the repository folder on your local machine, you can skip the first step and proceed to the second step. Here's how to run the project:
+
+
 **STEP 1: Clone (download) this repository**
 
 
