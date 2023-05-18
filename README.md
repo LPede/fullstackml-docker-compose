@@ -1,5 +1,5 @@
 # Fullstackml-docker-compose
-# Introduction
+## Introduction
 Your Docker Compose sets up a development environment for machine learning (ML) and data analysis using various components. The configuration includes:
 
 A JupyterLab service, based on the jupyter/datascience-notebook image, which provides an interactive environment for developing and running Python notebooks. You can access JupyterLab through your browser at `localhost:8888`.
@@ -14,7 +14,7 @@ MinIO S3 is used as the artifact store and MySQL server is used as the backend s
 
 The Docker Compose configuration provides an integrated environment for developing machine learning models using JupyterLab and MLflow, with MinIO as a data lake and MySQL as the backend for data storage. You can use JupyterLab to create and share notebooks, run MLflow experiments, and store the results and associated artifacts in MinIO.
 
-# How to run
+## How to run
 If you already have the repository folder on your local machine, you can skip the first step and proceed to the second step. Here's how to run the project:
 
 
