@@ -17,15 +17,15 @@ The Docker Compose configuration provides an integrated environment for developi
 **Clone (download) this repository**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
 
-git clone https://github.com/LPede/fullstackml-docker-compose.git
+`git clone https://github.com/LPede/fullstackml-docker-compose.git`
 
 **cd into the fullstackml-docker-compose directory**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
-cd fullstackml-docker-compose
+`cd fullstackml-docker-compose`
 
 **Build and run the containers with docker-compose**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
-docker-compose up -d --build
+`docker-compose up -d --build`
 
 **Access JupyterLab UI with [http://localhost:8888](http://localhost:8888)**
 
