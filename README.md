@@ -13,17 +13,17 @@ An MLflow service, based on the custom "mlflow_server" image built in the "mlflo
 The Docker Compose configuration provides an integrated environment for developing machine learning models using JupyterLab and MLflow, with MinIO as a data lake and MySQL as the backend for data storage. You can use JupyterLab to create and share notebooks, run MLflow experiments, and store the results and associated artifacts in MinIO.
 
 # How to run
-
-**Clone (download) this repository**
+If you already have the repository folder on your local machine, you can skip the first step and proceed to the second step. Here's how to run the project:
+**STEP 1: Clone (download) this repository**
 
 
 `git clone https://github.com/LPede/fullstackml-docker-compose.git`
 
-**cd into the fullstackml-docker-compose directory**
+**STEP 2: cd into the fullstackml-docker-compose directory**
 
 `cd fullstackml-docker-compose`
 
-**Build and run the containers with docker-compose**
+**STEP 3: Build and run the containers with docker-compose**
 
 `docker-compose up -d --build`
 
