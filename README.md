@@ -17,14 +17,15 @@ The Docker Compose configuration provides an integrated environment for developi
 **Clone (download) this repository**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
 
-`git clone https://github.com/LPede/fullstackml-docker-compose.git`
+git clone https://github.com/LPede/fullstackml-docker-compose.git
+
 **cd into the fullstackml-docker-compose directory**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
-`cd fullstackml-docker-compose`
+cd fullstackml-docker-compose
 
 **Build and run the containers with docker-compose**
 [![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
-`docker-compose up -d --build`
+docker-compose up -d --build
 
 **Access JupyterLab UI with [http://localhost:8888](http://localhost:8888)**
 
@@ -37,4 +38,3 @@ The Docker Compose configuration provides an integrated environment for developi
 - Docker Compose allows you to access environment variables from the compose file `docker-compose.yml`. All variables (usernames, passwords, db names, access keys) used in the compose file are declared in the hidden file `.env`.
 
 - Often the TCP/5000 port used by the MLflow UI is also (ab)used by other applications. For this reason, I mapped this port to TCP/5050 on the host machine. Anyway, the port mapping can be easily changed by editing the compose file.
-
