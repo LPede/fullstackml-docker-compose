@@ -15,7 +15,7 @@ The Docker Compose configuration provides an integrated environment for developi
 # How to run
 
 **Clone (download) this repository**
-[![Copy Code](https://img.shields.io/badge/Copy-Code-blue)](javascript:void(0))
+
 
 `git clone https://github.com/LPede/fullstackml-docker-compose.git`
 
