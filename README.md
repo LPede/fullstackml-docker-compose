@@ -1,5 +1,5 @@
-# fullstackml-docker-compose
-# introduction
+# Fullstackml-docker-compose
+# Introduction
 Your Docker Compose sets up a development environment for machine learning (ML) and data analysis using various components. The configuration includes:
 
 A JupyterLab service, based on the jupyter/datascience-notebook image, which provides an interactive environment for developing and running Python notebooks. You can access JupyterLab through your browser at "localhost:8888".
